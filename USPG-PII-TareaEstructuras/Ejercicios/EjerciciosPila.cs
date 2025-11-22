@@ -44,7 +44,7 @@ namespace USPG_PII_TareaEstructuras.Ejercicios
             var pila = new LinkedStack<Movimiento>();
 
             // 8 movimientos
-            string[] acciones = { "Mover N", "Saltar", "Atacar", "Mover E", "Cubrir", "Poción", "Mover S", "Ulti" };
+            string[] acciones = { "Mover N", "Saltar", "Atacar", "Mover E", "Cubrir", "Poción", "Mover S", "Ataque Cargado" };
             for (int i = 0; i < 8; i++)
             {
                 pila.Push(new Movimiento { Accion = acciones[i], Coordenada = $"{10 + i},{20 + i}", SegundoJuego = i * 5 });
